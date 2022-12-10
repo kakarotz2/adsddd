@@ -1,0 +1,24 @@
+.header {
+    width: 100%;
+    background-color: rgb(36, 37, 38);
+    .wrap-header {
+        display: flex;
+        margin: 0 1%;
+        height: 56px;
+        align-items: center;
+        justify-content: space-between;
+        .log {
+            padding: 0.85% 0;
+            fill: white;
+        }
+        .search {
+            width: 500px;
+            height: 40px;
+            border-radius: 24px;
+            background-color: red;
+        }
+        .action {
+            display: flex;
+        }
+    }
+}
