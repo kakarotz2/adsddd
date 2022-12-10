@@ -1,0 +1,26 @@
+.wrap-siderbar {
+    width: 18%;
+    margin: 0.3%;
+
+    .fb-home {
+        height: 30%;
+        border-bottom: white solid 1px;
+        .home {
+            display: flex;
+            align-items: center;
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+        }
+        .fb-ico-sider {
+            padding: 20px;
+            color: rgb(66, 146, 255);
+        }
+        p {
+            font-family: inherit;
+            font-weight: 700;
+            color: rgb(216, 209, 209);
+        }
+    }
+}
